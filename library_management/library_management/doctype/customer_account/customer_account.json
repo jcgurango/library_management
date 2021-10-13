@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-10-13 13:14:37.912032",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_account",
+  "customer_name",
+  "customer_contact_numbers",
+  "customer_email_address",
+  "birthdate",
+  "citizenship",
+  "marital_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_account",
+   "fieldtype": "Data",
+   "label": "Customer Account"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "customer_contact_numbers",
+   "fieldtype": "Data",
+   "label": "Customer contact numbers"
+  },
+  {
+   "fieldname": "customer_email_address",
+   "fieldtype": "Data",
+   "label": "Customer email address "
+  },
+  {
+   "fieldname": "birthdate",
+   "fieldtype": "Date",
+   "label": "Birthdate"
+  },
+  {
+   "fieldname": "citizenship",
+   "fieldtype": "Select",
+   "label": "Citizenship",
+   "options": "Filipino\nAmerican"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status",
+   "options": "Single\nMarried"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-13 13:39:14.770426",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Customer Account",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "customer_account",
+ "track_changes": 1
+}
